@@ -17,4 +17,4 @@ Prototipo de Baja Fidelidad
   - [ ] [Definir paleta de colores]
   - [ ] [Definir tipografias]
   - [ ] [Definir espaciado base]
-  - [ ] [Crear guia de estilo]
+  - [ ] [Crear guia de estilos]
