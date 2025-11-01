@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Api corriendo correctamente",
+    message: "Api de Celi corriendo correctamente",
   });
 });
 

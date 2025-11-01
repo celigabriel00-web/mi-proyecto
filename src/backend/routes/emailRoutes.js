@@ -18,10 +18,10 @@ const router = express.Router();
  *            properties:
  *              email:
  *                type: string
- *                example: usuario@gmail.com
+ *                example: celi@gmail.com
  *              name:
  *                type: string
- *                example: Juan Pérez
+ *                example: Celi Gabriel
  *    responses:
  *      200:
  *        description: Email enviado correctamente
