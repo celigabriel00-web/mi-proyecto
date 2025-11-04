@@ -1,3 +1,4 @@
+
 import express from "express";
 import { registerUser } from "../controllers/emailControllers.js";
 
@@ -18,10 +19,10 @@ const router = express.Router();
  *            properties:
  *              email:
  *                type: string
- *                example: celi@gmail.com
+ *                example: usuario@gmail.com
  *              name:
  *                type: string
- *                example: Celi Gabriel
+ *                example: Juan Pérez
  *    responses:
  *      200:
  *        description: Email enviado correctamente

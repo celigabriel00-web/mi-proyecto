@@ -1,3 +1,4 @@
+
 import { PrismaClient } from "@prisma/client";
 import { hashPassword, comparePassword, generateToken } from "../utils/auth.js";
 

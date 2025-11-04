@@ -1,10 +1,23 @@
-function Home(){
-    return(
-        <div className="min-h-screen bg-gray-100 p-8">
-            <h1 className="text-2xl font-bold mb-4">Bienvenido a mi pagina 🏡</h1>
-            <p className="text-orange-600 text-xl ">Esta es nuestra aplicacion con React</p>
-        </div>
-    );
-}
+import swaggerJsdoc from "swagger-jsdoc";
+const swaggerOptions = {
+  definition: {
+    openapi: "3.0.0",
+    info: { 
+      title: "API REST - Proyect streamingfilm",
+    version: "1.0.0",
+    description: "Documentación de API REST con Express, Prisma y Postman.",
+    contact:{
+        autor: 'Isaac Pérez',
+        email: '1627141@senati.edu.pe',
+        telephone: '+51 983569753'
+    }
+},
+    servers: [{
+        url: "http://localhost:3000",
+        description: "Servidor de desarrollo"
+    }],
+  },
+  apis: ["./routes/*.js"],
+};
+export const swaggerSpec = swaggerJsdoc(swaggerOptions);
 
-export default Home;
